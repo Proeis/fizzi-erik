@@ -3,7 +3,6 @@
 import { FC } from "react";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
-import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { Environment, View } from "@react-three/drei";
 
 import { Bubbles } from "@/components/Bubbles";
