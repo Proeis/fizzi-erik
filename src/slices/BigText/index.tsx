@@ -17,8 +17,6 @@ export type BigTextProps = SliceComponentProps<Content.BigTextSlice>;
  * Component for "BigText" Slices.
  */
 const BigText: FC<BigTextProps> = ({ slice }) => {
-  const isDesktop = useMediaQuery("(min-width: 768px)", true)
-
 
   return (
     <section

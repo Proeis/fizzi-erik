@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { Environment, OrbitControls } from "@react-three/drei";
+import { Environment } from "@react-three/drei";
 import { Group } from "three";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -12,9 +12,8 @@ import FloatingCan from "@/components/FloatingCan";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger)
 
-type Props = {}
 
-export default function Scene({}: Props) {
+export default function Scene() {
 
     const isReady = useStore((state) => state.isReady)
 

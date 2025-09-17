@@ -2,7 +2,6 @@
 
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
-import { Perf } from "r3f-perf"
 import { Suspense } from "react";
 import dynamic from "next/dynamic";
 
@@ -11,9 +10,8 @@ const Loader = dynamic(
 )
 
 
-type Props = {}
 
-export default function ViewCanvas({}: Props) {
+export default function ViewCanvas() {
   return (
     <>
     <Canvas

@@ -2,9 +2,9 @@ import React from 'react'
 import { FizziLogo } from './FizziLogo'
 import CircleText from './CircleText'
 
-type Props = {}
 
-export default function Footer({}: Props) {
+
+export default function Footer() {
   return (
     <footer className="bg-[#FEE832] text-[#FE6334]">
 
